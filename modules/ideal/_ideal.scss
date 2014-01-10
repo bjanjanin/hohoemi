@@ -1,0 +1,32 @@
+.aikido-ideal {
+	background: $black;
+	padding: 10px 0;
+}
+.aikido-ideal-inner {
+	border-top: 2px dashed $dark-gray;
+	border-bottom: 2px dashed $dark-gray;
+}
+.aikido-ideal-quote {
+	text-align: center;
+	color: $white;
+}
+.aikido-ideal-cite {
+	display: block;
+	color: $red;
+	font-style: normal;
+}
+.quote-pic {
+	margin: 0 auto 30px auto;
+	display: block;
+	border: 8px solid $gray;
+
+	border-radius: 100%;
+	-khtml-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+	@media only screen and (min-width: 600px) {
+		.quote-pic {
+			border: 13px solid $gray;
+		}
+	}

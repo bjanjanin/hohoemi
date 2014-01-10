@@ -1,0 +1,20 @@
+.main-footer {
+	background: $white;
+	
+	.logo {
+		margin-bottom: 30px;
+		max-width: 200px;
+	}
+}
+.main-footer-small-print {
+	color: $black;
+	text-align: center;
+}
+.main-footer-small-print-link {
+	color: $red;
+	text-decoration: none;
+}
+.main-footer-small-print-link:hover {
+	color: $black;
+	border-bottom: 1px solid $black;
+}

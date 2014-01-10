@@ -1,0 +1,28 @@
+.video-container {
+	margin-bottom: 2rem;
+
+	// responsiveness
+	height: 0;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 56%;
+
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	@media only screen and (min-width: 600px) {
+		.video-container {
+			border: 40px solid $black;
+		}
+	}
+
+.video-iframe {
+	border: 0 none transparent;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}

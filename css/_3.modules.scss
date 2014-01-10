@@ -1,0 +1,209 @@
+@import "_intro.scss";
+@import "_video.scss";
+@import "_footer.scss";
+@import "_prices.scss";
+@import "_motto.scss";
+@import "_ideal.scss";
+@import "_gallery.scss";
+@import "_contacts.scss";
+
+
+
+
+
+
+/* Begin .unordered-list */
+.unordered-list-item {
+	list-style: none;
+	padding: .6rem 0 .6rem 1rem;
+	padding: 6px 0 6px 10px;
+	position: relative;
+	border-bottom: 2px solid #911;
+}
+.unordered-list-item:before {
+	color: $white;
+	content: "-";
+	left: 0;
+	position: absolute;
+}
+/* End .unordered-list */
+
+.why-title {
+	color: $white
+}
+
+
+
+/* Begin .about-us */
+.about-us {
+	background: $black;
+	color: $white;
+	padding: 10px 0
+}
+.about-us-inner {
+	border-top: 2px dashed #333;
+	border-bottom: 2px dashed #333;
+	
+}
+@media only screen 
+and (max-width: 568px) {
+	.about-us-inner {
+		padding: 50px 0;
+	}
+}
+.wara-pic {
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 90%;
+	//max-width: 150px;
+}
+	@media only screen and (min-width: 1000px) {
+		.wara-pic {
+			max-width: 200px;
+		}
+	}
+.wara-text {
+	color: $gray;
+	text-align: center;
+}
+.about-us-title {
+	color: $red;
+	//text-align: center;
+	margin-bottom: 1em
+}
+.about-us-title strong {
+	display: block;
+	font-size: 120px
+}
+
+@media only screen 
+and (max-width: 568px) {
+	.about-us-title {
+		font-size: 60px;
+		font-size: 6rem;
+	}
+}
+.about-us-title-span {
+	font-size: 48px;
+	font-size: 4.8rem;
+	margin-right: -20px;
+}
+.about-us-link {
+	color: $red;
+}
+.about-us-link:hover {
+	color: $white;
+	text-decoration: none;
+	border-bottom: 1px solid $white;
+}
+.about-us-text {
+}
+/* End .about-us */
+
+
+
+/* Begin .links */
+.links {
+	background-color: $red;
+}
+.links-title {
+	color: $white;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.links-title strong {
+	display: block;
+	font-size: 90px
+}
+@media only screen 
+and (max-width: 568px) {
+	.links-title {
+		font-size: 60px;
+		font-size: 6rem;
+	}
+}
+.links-p {
+	color: $white;
+	font-family: "rooney-sans", "Trebuchet MS", sans-serif;
+	font-size: 22px;
+	font-size: 2.2rem;
+	margin-bottom: .5rem;
+//	font-weight: 800;
+
+}
+
+.club + .club {
+	margin-bottom: 30px
+}
+
+.club {
+	text-align: center;
+}
+
+.club-link {
+	color: $white;
+	text-decoration: none;
+	display: block;
+}
+
+.club-link:hover:after {
+	background: $white;
+	color: $black;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+.club-strong {
+	display: block;
+	font-size: 17px;
+	font-size: 1.7rem;
+	color: $black
+}
+.club-link:hover .zadar {
+	text-decoration: none;
+}
+.club-link:hover .sesvete {
+	text-decoration: none;
+}
+.club-link:hover .ljubljana {
+	text-decoration: none;
+}
+.contact-link {
+	//display: block;
+}
+.contact-link:hover {
+	color: $white;
+	border-bottom: 1px solid $white;
+}
+/* End .links */
+
+
+
+
+
+/* Begin .why-aikido */
+.why-aikido {
+	background: $red;
+	color: $white;
+	padding-top: 60px
+}
+
+/* End .why-aikido */
+
+/* Begin welcome */
+.welcome {
+	background: $red;
+	position: relative;
+}
+
+@media only screen 
+and (max-width: 568px) {
+	.welcome-inner  {
+		padding: 50px 0;
+	}
+}
+.welcome-title {
+	color: $white;
+}
+/* End welcome */

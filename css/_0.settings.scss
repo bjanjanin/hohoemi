@@ -1,0 +1,53 @@
+$gutter: 40px;
+
+$red: #c23;
+$black: #111;
+$dark-gray: #333;
+$gray: #888;
+$white: #fff;
+
+$heading-font: "orgovan-rounded-web", "Trebuchet MS";
+$copy-font: "rooney-sans", "Trebuchet MS", sans-serif;
+
+// Reset
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	color: $black;
+	background: $white;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+	display: block;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}

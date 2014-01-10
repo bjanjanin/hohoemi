@@ -1,0 +1,30 @@
+.contacts {
+	margin-top: 60px;
+	background-color: transparent;
+}
+.contact {
+	margin-top: 30px;
+	line-height: 1.75;
+}
+	@media only screen and (max-width: 600px) {
+		.contact {
+			text-align: center;
+		}
+	}
+.contact-title {
+	line-height: 1.15;
+	font-weight: normal;
+	color: $red;
+}
+.contact-list {
+	list-style: none;
+}
+.contact-item {
+	color: $white;
+}
+.contact-item strong {
+	font-weight: 300;
+}
+.contact-link {
+	color: $red;
+}

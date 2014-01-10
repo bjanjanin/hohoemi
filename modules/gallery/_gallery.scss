@@ -1,0 +1,51 @@
+.gallery {
+	background-color: $red;
+}
+.gallery-title {
+	color: $white;
+	text-align: center;
+}
+.gallery-title strong {
+	display: block;
+}
+.gallery-list {
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+	@media only screen and (min-width: 600px) {
+		.gallery-list {
+			margin-top: 60px;
+		}
+	}
+
+.gallery-item {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.gallery-img {
+	width: 100%;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+}
+.gallery-img:hover {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+
+	-webkit-box-shadow: 7px 7px 0px 0px rgba(255, 255, 255, 0);
+	-moz-box-shadow: 7px 7px 0px 0px rgba(255, 255, 255, 0);
+	box-shadow: 7px 7px 0px 0px rgba(255, 255, 255, 0);
+}
