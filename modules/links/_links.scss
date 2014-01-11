@@ -1,0 +1,36 @@
+.links {
+	background-color: $red;
+}
+.links-title {
+	color: $white;
+	text-align: center;
+}
+.links-title strong {
+	display: block;
+}
+
+.link-title {
+	color: $white;
+	text-align: center;
+	margin-bottom: .5em;
+}
+
+.links-p {
+	color: $white;
+	margin-bottom: .5rem;
+}
+.link-item {
+	margin-top: 60px;
+}
+.link {
+	color: $white;
+	text-align: center;
+	display: block;
+}
+.link:hover .link-address {
+	color: $white;
+	border-bottom: 1px solid $white;
+}
+.link-address {
+	color: $black;
+}

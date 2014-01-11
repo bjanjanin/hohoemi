@@ -48,11 +48,7 @@ body {
   font-size: 1.8rem; }
 
 a {
-  text-decoration: none;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out; }
+  text-decoration: none; }
 
 h1, h2, h3, h4 {
   line-height: 1.1; }
@@ -326,7 +322,6 @@ strong {
 .gallery-list {
   list-style: none;
   margin-top: 30px;
-  margin-bottom: 20px;
   text-align: center; }
 
 @media only screen and (min-width: 600px) {
@@ -446,69 +441,40 @@ strong {
   text-decoration: none;
   border-bottom: 1px solid white; }
 
-/* Begin .links */
 .links {
   background-color: #cc2233; }
 
 .links-title {
   color: white;
-  text-align: center;
-  margin-bottom: 2em; }
-
-.links-title strong {
-  display: block;
-  font-size: 90px; }
-
-@media only screen and (max-width: 568px) {
-  .links-title {
-    font-size: 60px;
-    font-size: 6rem; } }
-.links-p {
-  color: white;
-  font-family: "rooney-sans", "Trebuchet MS", sans-serif;
-  font-size: 22px;
-  font-size: 2.2rem;
-  margin-bottom: .5rem; }
-
-.club + .club {
-  margin-bottom: 30px; }
-
-.club {
   text-align: center; }
 
-.club-link {
-  color: white;
-  text-decoration: none;
+.links-title strong {
   display: block; }
 
-.club-link:hover:after {
-  background: white;
-  color: #111111;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out; }
+.link-title {
+  color: white;
+  text-align: center;
+  margin-bottom: .5em; }
 
-.club-strong {
-  display: block;
-  font-size: 17px;
-  font-size: 1.7rem;
-  color: #111111; }
+.links-p {
+  color: white;
+  margin-bottom: .5rem; }
 
-.club-link:hover .zadar {
-  text-decoration: none; }
+.link-item {
+  margin-top: 60px; }
 
-.club-link:hover .sesvete {
-  text-decoration: none; }
+.link {
+  color: white;
+  text-align: center;
+  display: block; }
 
-.club-link:hover .ljubljana {
-  text-decoration: none; }
-
-.contact-link:hover {
+.link:hover .link-address {
   color: white;
   border-bottom: 1px solid white; }
 
-/* End .links */
+.link-address {
+  color: #111111; }
+
 .is-visually-hidden {
   left: -9999px;
   position: absolute;
