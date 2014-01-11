@@ -387,13 +387,23 @@ strong {
 .contact-link {
   color: #cc2233; }
 
-/* Begin .unordered-list */
+.welcome {
+  background: #cc2233; }
+
+.why-title {
+  color: white;
+  margin-top: 60px; }
+
+.why-aikido {
+  background: #cc2233;
+  color: white; }
+
 .unordered-list-item {
   list-style: none;
   padding: .6rem 0 .6rem 1rem;
   padding: 6px 0 6px 10px;
   position: relative;
-  border-bottom: 2px solid #911; }
+  border-bottom: 2px solid #991111; }
 
 .unordered-list-item:before {
   color: white;
@@ -401,51 +411,35 @@ strong {
   left: 0;
   position: absolute; }
 
-/* End .unordered-list */
-.why-title {
-  color: white; }
-
-/* Begin .about-us */
 .about-us {
   background: #111111;
   color: white;
   padding: 10px 0; }
 
 .about-us-inner {
-  border-top: 2px dashed #333;
-  border-bottom: 2px dashed #333; }
+  border-top: 2px dashed #333333;
+  border-bottom: 2px dashed #333333; }
 
-@media only screen and (max-width: 568px) {
-  .about-us-inner {
-    padding: 50px 0; } }
 .wara-pic {
   display: block;
   margin: 20px auto 0 auto;
-  width: 90%; }
+  width: 90%;
+  max-width: 200px; }
 
-@media only screen and (min-width: 1000px) {
-  .wara-pic {
-    max-width: 200px; } }
 .wara-text {
   color: #888888;
   text-align: center; }
 
 .about-us-title {
   color: #cc2233;
+  text-align: center;
   margin-bottom: 1em; }
 
-.about-us-title strong {
-  display: block;
-  font-size: 120px; }
-
-@media only screen and (max-width: 568px) {
+@media only screen and (min-width: 600px) {
   .about-us-title {
-    font-size: 60px;
-    font-size: 6rem; } }
-.about-us-title-span {
-  font-size: 48px;
-  font-size: 4.8rem;
-  margin-right: -20px; }
+    text-align: left; } }
+.about-us-title strong {
+  display: block; }
 
 .about-us-link {
   color: #cc2233; }
@@ -455,7 +449,6 @@ strong {
   text-decoration: none;
   border-bottom: 1px solid white; }
 
-/* End .about-us */
 /* Begin .links */
 .links {
   background-color: #cc2233; }
@@ -519,25 +512,6 @@ strong {
   border-bottom: 1px solid white; }
 
 /* End .links */
-/* Begin .why-aikido */
-.why-aikido {
-  background: #cc2233;
-  color: white;
-  padding-top: 60px; }
-
-/* End .why-aikido */
-/* Begin welcome */
-.welcome {
-  background: #cc2233;
-  position: relative; }
-
-@media only screen and (max-width: 568px) {
-  .welcome-inner {
-    padding: 50px 0; } }
-.welcome-title {
-  color: white; }
-
-/* End welcome */
 .is-visually-hidden {
   left: -9999px;
   position: absolute;
