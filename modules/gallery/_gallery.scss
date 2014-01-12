@@ -21,26 +21,34 @@
 
 .gallery-item {
 	display: inline-block;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .gallery-img {
 	width: 100%;
+	
 	border-radius: 5px;
 	-khtml-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+
 	-webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 	-moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 }
 .gallery-img:hover {
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
+	//-webkit-transition: all 0.5s ease-in-out;
+	//-moz-transition: all 0.5s ease-in-out;
+	//-o-transition: all 0.5s ease-in-out;
+	//-ms-transition: all 0.5s ease-in-out;
+	
+	border: 5px solid white;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: -5px;
+	margin-bottom: -5px;
 
-	-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
+	//-webkit-transform: rotate(360deg);
+	//-moz-transform: rotate(360deg);
+	//-o-transform: rotate(360deg);
+	//-ms-transform: rotate(360deg);
 }

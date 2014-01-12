@@ -78,7 +78,18 @@ h1, h2, h3, h4 {
 			font-size: 1.7rem;
 		}
 	}
-	
+
+.small {
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+	@media only screen and (min-width: 600px) {
+		.small {
+			font-size: 15px;
+			font-size: 1.5rem;
+		}
+	}
+
 strong {
 	font-weight: 300;
 }

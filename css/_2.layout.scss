@@ -1,45 +1,30 @@
-/* Begin containers */
 .l-container {
 	margin: 0 auto;
 	width: 90%;
 	max-width: 970px;
 	padding: 80px 0;
 }
-@media only screen 
-and (max-width: 568px) {
+@media only screen and (max-width: 568px) {
 	.l-container {
-		padding: 30px 20px;
+		padding: 60px 0;
 	}
 }
-.l-container-wide {
-	margin: 0 auto;
-	max-width: 1210px;
-}
-.l-container-narrow {
-	margin: 0 auto;
-	max-width: 690px;
-}
-/* End containers */
 
-/* Begin grid stuff */
 .l-grid {
 	margin-right: -$gutter;
 	font-size: 0;
 }
-	.l-column {
-		display: inline-block;
-		padding-right: $gutter;
-		vertical-align: top;
+.l-column {
+	display: inline-block;
+	padding-right: $gutter;
+	vertical-align: top;
 
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-/* End grid stuff */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-/* Begin Media Queries */
-@media only screen 
-and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 	.l-desktop-one-whole {
 		width: 100%;
 	}
@@ -61,9 +46,11 @@ and (min-width: 1024px) {
 	.l-desktop-one-sixth {
 		width: 16.66%;
 	}
+	.l-desktop-one-seventh {
+		width: 14.29%;
+	}
 }
-@media only screen 
-and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	.l-tablet-one-whole {
 		width: 100%;
 	}
@@ -77,8 +64,7 @@ and (max-width: 1024px) {
 		width: 66.6666666666%
 	}
 }
-@media only screen 
-and (max-width: 568px) {
+@media only screen and (max-width: 568px) {
 	.l-smartphone-one-whole {
 		width: 100%;
 	}
@@ -86,10 +72,3 @@ and (max-width: 568px) {
 		width: 50%;
 	}
 }
-/* End Media Queries */
-
-/* Begin l-contacts */
-.l-contacts {
-	background-color: #1b1819;
-}
-/* End .l-contacts */

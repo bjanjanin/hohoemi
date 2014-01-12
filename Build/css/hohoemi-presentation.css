@@ -103,10 +103,17 @@ h1, h2, h3, h4 {
   .p, .li {
     font-size: 17px;
     font-size: 1.7rem; } }
+.small {
+  font-size: 15px;
+  font-size: 1.5rem; }
+
+@media only screen and (min-width: 600px) {
+  .small {
+    font-size: 15px;
+    font-size: 1.5rem; } }
 strong {
   font-weight: 300; }
 
-/* Begin containers */
 .l-container {
   margin: 0 auto;
   width: 90%;
@@ -115,31 +122,19 @@ strong {
 
 @media only screen and (max-width: 568px) {
   .l-container {
-    padding: 30px 20px; } }
-.l-container-wide {
-  margin: 0 auto;
-  max-width: 1210px; }
-
-.l-container-narrow {
-  margin: 0 auto;
-  max-width: 690px; }
-
-/* End containers */
-/* Begin grid stuff */
+    padding: 60px 0; } }
 .l-grid {
-  margin-right: -40px;
+  margin-right: -20px;
   font-size: 0; }
 
 .l-column {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 20px;
   vertical-align: top;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* End grid stuff */
-/* Begin Media Queries */
 @media only screen and (min-width: 1024px) {
   .l-desktop-one-whole {
     width: 100%; }
@@ -160,7 +155,10 @@ strong {
     width: 75%; }
 
   .l-desktop-one-sixth {
-    width: 16.66%; } }
+    width: 16.66%; }
+
+  .l-desktop-one-seventh {
+    width: 14.29%; } }
 @media only screen and (max-width: 1024px) {
   .l-tablet-one-whole {
     width: 100%; }
@@ -179,12 +177,6 @@ strong {
 
   .l-smartphone-one-half {
     width: 50%; } }
-/* End Media Queries */
-/* Begin l-contacts */
-.l-contacts {
-  background-color: #1b1819; }
-
-/* End .l-contacts */
 .intro {
   background: white; }
 
@@ -241,7 +233,7 @@ strong {
   background: white; }
   .main-footer .logo {
     margin-bottom: 30px;
-    max-width: 200px; }
+    max-width: 180px; }
 
 .main-footer-small-print {
   color: #111111;
@@ -329,7 +321,7 @@ strong {
     margin-top: 60px; } }
 .gallery-item {
   display: inline-block;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 .gallery-img {
   width: 100%;
@@ -342,17 +334,13 @@ strong {
   box-shadow: 7px 7px 0px 0px black; }
 
 .gallery-img:hover {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg); }
+  border: 5px solid white;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -5px;
+  margin-bottom: -5px; }
 
 .contacts {
-  margin-top: 60px;
   background-color: transparent; }
 
 .contact {
@@ -379,6 +367,10 @@ strong {
 .contact-link {
   color: #cc2233; }
 
+.contact-link:hover {
+  color: white;
+  border-bottom: 1px solid white; }
+
 .welcome {
   background: #cc2233; }
 
@@ -389,6 +381,9 @@ strong {
 .why-aikido {
   background: #cc2233;
   color: white; }
+
+.unordered-list {
+  padding: 0 20px; }
 
 .unordered-list-item {
   list-style: none;
@@ -424,8 +419,7 @@ strong {
 
 .about-us-title {
   color: #cc2233;
-  text-align: center;
-  margin-bottom: 1em; }
+  text-align: center; }
 
 @media only screen and (min-width: 600px) {
   .about-us-title {

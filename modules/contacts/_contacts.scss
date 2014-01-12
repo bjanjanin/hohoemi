@@ -1,5 +1,4 @@
 .contacts {
-	margin-top: 60px;
 	background-color: transparent;
 }
 .contact {
@@ -27,4 +26,8 @@
 }
 .contact-link {
 	color: $red;
+}
+.contact-link:hover {
+	color: $white;
+	border-bottom: 1px solid $white;
 }
