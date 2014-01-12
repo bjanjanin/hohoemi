@@ -469,6 +469,13 @@ strong {
 .link-address {
   color: #111111; }
 
+@media print {
+  * {
+    background: #fff;
+    color: #333; }
+
+  html {
+    font: 100%/1.5 georgia, serif; } }
 .is-visually-hidden {
   left: -9999px;
   position: absolute;
