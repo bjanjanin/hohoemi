@@ -1,0 +1,29 @@
+.sponsors {
+	background-color: $black;
+}
+.sponsors-title {
+	color: $white;
+	text-align: center;
+}
+.sponsors-subtitle {
+	color: $red;
+	text-align: center;
+}
+.sponsors-list {
+	color: $white;
+	
+	.unordered-list-item {
+		border-bottom-color: $gray;
+	}
+}
+.sponsor-pic {
+	width: 150px;
+	margin: 20px auto;
+	display: block;
+}
+@media only screen and (min-width: 768px) {
+  .sponsor-pic {
+    float: right;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,114 @@
+// Spit out pixels then rems, please 
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+}
+
+// I love curves and I cannot lie 
+@mixin rounded($radius: 0.5em) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+// Do the border box thingy 
+@mixin box-sizing( $type: border-box ) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing: $type;
+	-o-box-sizing: $type;
+	-ms-box-sizing: $type;
+	box-sizing: $type;
+}
+
+// Make my list columns pretty
+@mixin columns($count: 3, $gap: 10) {
+	-webkit-column-count: $count;
+	-moz-column-count: $count;
+	column-count: $count;
+	-webkit-column-gap: $gap;
+	-moz-column-gap: $gap;
+	column-gap: $gap;
+}
+
+// Cross-browser opacity
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// Retina images!1
+@mixin background-image-retina($file, $type, $width, $height) {
+	background-image: url($file + '.' + $type);
+ 
+	@media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+		& {
+			background-image: url($file + '@2x.' + $type);
+			-webkit-background-size: $width $height;
+		}
+	}
+}
+
+// Break points
+@mixin bp($point) {
+	@if $point == papa-bear {
+		@media (max-width: 1600px) { @content; }
+	}
+	@else if $point == mama-bear {
+		@media (max-width: 1250px) { @content; }
+	}
+	@else if $point == baby-bear {
+		@media (max-width: 600px) { @content; }
+	}
+}
+
+// Vertical aligning - http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+@mixin vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+// Box shadow thingy
+@mixin box-shadow( $horiz: .5em, $vert: .5em, $blur: 0px, $spread: 0px, $color: #000 ){
+	-webkit-box-shadow: $horiz $vert $blur $spread $color;
+	-moz-box-shadow: $horiz $vert $blur $spread $color;
+	box-shadow: $horiz $vert $blur $spread $color;
+}
+
+// Inline-block
+@mixin inline-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+// Transitions
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
+
+// Box Shadow
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+	-webkit-box-shadow: $horiz $vert $blur $spread $color;
+	-moz-box-shadow: $horiz $vert $blur $spread $color;
+	box-shadow: $horiz $vert $blur $spread $color;
+}
+
+// Inset Box Shadow
+@mixin inset-box-shadow($horizontal: 0px, $vertical: 1px, $blur: 2px, $color: #CCC) {
+	-webkit-box-shadow: inset $horizontal $vertical $blur $color;
+	-moz-box-shadow: inset $horizontal $vertical $blur $color;
+	box-shadow: inset $horizontal $vertical $blur $color;
+}
+
+// Text Shadow
+@mixin text-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0,0,0,.4)) {
+	text-shadow: $x $y $blur $color;
+}
+	

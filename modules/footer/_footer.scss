@@ -18,3 +18,19 @@
 	color: $black;
 	border-bottom: 1px solid $black;
 }
+
+.facebook {
+
+}
+
+.facebook-link {
+	background: $red;
+	padding: $gutter*2;
+	display: block;
+	text-align: center;
+	color: $white;
+}
+
+.facebook-link:hover {
+	background: #44609B;
+}
