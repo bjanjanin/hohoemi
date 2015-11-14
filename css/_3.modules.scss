@@ -1,16 +1,15 @@
-@import "lib/_mixins.scss";
+@import "lib/_mixins";
 
-@import "_intro.scss";
-@import "_video.scss";
-@import "_footer.scss";
-@import "_prices.scss";
-@import "_motto.scss";
-@import "_ideal.scss";
-@import "_gallery.scss";
-@import "_contacts.scss";
-@import "_welcome.scss";
-@import "_about.scss";
-@import "_links.scss";
-@import "_sponsors.scss";
-@import "_kontakt.scss";
-
+@import "../modules/intro/_intro.scss";
+@import "../modules/video/_video";
+@import "../modules/footer/_footer";
+@import "../modules/prices/_prices";
+@import "../modules/motto/_motto";
+@import "../modules/gallery/_gallery";
+@import "../modules/contacts/_contacts";
+@import "../modules/welcome/_welcome";
+@import "../modules/about/_about";
+@import "../modules/links/_links";
+@import "../modules/sponsors/_sponsors";
+@import "../modules/kontakt/_kontakt";
+@import "../modules/ideal/_ideal";

@@ -10,6 +10,19 @@
 	}
 }
 
+.l-container-full {
+	margin: 0 auto;
+	width: 90%;
+	padding: 60px 0;
+}
+
+
+@media only screen and (max-width: 568px) {
+	.l-container {
+		padding: 60px 0;
+	}
+}
+
 .l-grid {
 	margin-right: -$gutter;
 	font-size: 0;

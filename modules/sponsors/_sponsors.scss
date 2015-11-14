@@ -27,3 +27,17 @@
     padding-right: 40px;
   }
 }
+
+.orsic {
+}
+
+.orsic a {
+  background: #5AB5F2; 
+  color: #fff; 
+  padding: 40px; 
+  text-align: center;
+  display: block;
+  &:hover {
+    background: darken(#5AB5F2, 20%);
+  }
+}

@@ -2,9 +2,13 @@
   padding: 0;
   margin: 0; }
 
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none; }
+
 html {
-  color: #111111;
-  background: white; }
+  color: #111;
+  background: #fff; }
 
 article,
 aside,
@@ -46,7 +50,7 @@ html {
   font: 62.5%/1.5 "rooney-sans", "Trebuchet MS", sans-serif; }
 
 body {
-  background-color: white;
+  background-color: #fff;
   font-size: 18px;
   font-size: 1.8rem; }
 
@@ -126,6 +130,14 @@ strong {
 @media only screen and (max-width: 568px) {
   .l-container {
     padding: 60px 0; } }
+.l-container-full {
+  margin: 0 auto;
+  width: 90%;
+  padding: 60px 0; }
+
+@media only screen and (max-width: 568px) {
+  .l-container {
+    padding: 60px 0; } }
 .l-grid {
   margin-right: -20px;
   font-size: 0; }
@@ -181,10 +193,10 @@ strong {
   .l-smartphone-one-half {
     width: 50%; } }
 .intro {
-  background: white; }
+  background: #fff; }
 
 .intro-text {
-  color: #111111;
+  color: #111;
   margin-bottom: 0; }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
@@ -194,7 +206,7 @@ strong {
     text-align: center;
     width: 66.6666%; } }
 .intro-title {
-  color: #111111; }
+  color: #111; }
 
 @media only screen and (max-width: 1024px) {
   .intro-title {
@@ -203,12 +215,12 @@ strong {
 .logo {
   display: block;
   width: 100%;
-  max-width: 220px;
+  max-width: 160px;
   margin: 0 auto 30px auto; }
 
 @media only screen and (min-width: 1100px) {
   .logo {
-    max-width: 230px;
+    max-width: 225px;
     margin-bottom: 0; } }
 .video-container {
   margin-bottom: 2rem;
@@ -223,7 +235,7 @@ strong {
 
 @media only screen and (min-width: 600px) {
   .video-container {
-    border: 40px solid #111111; } }
+    border: 40px solid #111; } }
 .video-iframe {
   border: 0 none transparent; }
 
@@ -233,49 +245,49 @@ strong {
   width: 100%; }
 
 .main-footer {
-  background: white; }
+  background: #fff; }
   .main-footer .logo {
     margin-bottom: 30px;
     max-width: 180px; }
 
 .main-footer-small-print {
-  color: #111111;
+  color: #111;
   text-align: center; }
 
 .main-footer-small-print-link {
-  color: #cc2233;
+  color: #c23;
   text-decoration: none; }
 
 .main-footer-small-print-link:hover {
-  color: #111111;
-  border-bottom: 1px solid #111111; }
+  color: #111;
+  border-bottom: 1px solid #111; }
 
 .facebook-link {
-  background: #cc2233;
+  background: #c23;
   padding: 40px;
   display: block;
   text-align: center;
-  color: white; }
+  color: #fff; }
 
 .facebook-link:hover {
   background: #44609B; }
 
 .prices {
-  background: white;
-  color: #111111;
+  background: #fff;
+  color: #111;
   text-align: center;
   font-family: "orgovan-rounded-web", "Trebuchet MS"; }
 
 .prices-text {
-  color: #111111;
+  color: #111;
   margin-bottom: 0; }
 
 .prices strong {
-  color: #cc2233; }
+  color: #c23; }
 
 .motto {
-  background-color: white;
-  color: #111111;
+  background-color: #fff;
+  color: #111;
   text-align: center;
   font-family: "orgovan-rounded-web", "Trebuchet MS"; }
 
@@ -283,42 +295,13 @@ strong {
   margin-bottom: 0; }
 
 .motto-text span {
-  color: #cc2233; }
+  color: #c23; }
 
-.aikido-ideal {
-  background: #111111;
-  padding: 10px 0; }
-
-.aikido-ideal-inner {
-  border-top: 2px dashed #333333;
-  border-bottom: 2px dashed #333333; }
-
-.aikido-ideal-quote {
-  text-align: center;
-  color: white; }
-
-.aikido-ideal-cite {
-  display: block;
-  color: #cc2233;
-  font-style: normal; }
-
-.quote-pic {
-  margin: 0 auto 30px auto;
-  display: block;
-  border: 8px solid #888888;
-  border-radius: 100%;
-  -khtml-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%; }
-
-@media only screen and (min-width: 600px) {
-  .quote-pic {
-    border: 13px solid #888888; } }
 .gallery {
-  background-color: #cc2233; }
+  background-color: #c23; }
 
 .gallery-title {
-  color: white;
+  color: #fff;
   text-align: center; }
 
 .gallery-title strong {
@@ -350,7 +333,7 @@ strong {
   border: 5px solid white;
   margin-left: -5px;
   margin-right: -5px;
-  margin-top: -5px;
+  margin-top: 0px;
   margin-bottom: -5px; }
 
 .contacts {
@@ -366,34 +349,34 @@ strong {
 .contact-title {
   line-height: 1.15;
   font-weight: normal;
-  color: #cc2233; }
+  color: #c23; }
 
 .contact-list {
   list-style: none; }
 
 .contact-item {
-  color: white; }
+  color: #fff; }
 
 .contact-item strong {
   font-weight: 300; }
 
 .contact-link {
-  color: #cc2233; }
+  color: #c23; }
 
 .contact-link:hover {
-  color: white;
-  border-bottom: 1px solid white; }
+  color: #fff;
+  border-bottom: 1px solid #fff; }
 
 .welcome {
-  background: #cc2233; }
+  background: #c23; }
 
 .why-title {
-  color: white;
+  color: #fff;
   margin-top: 60px; }
 
 .why-aikido {
-  background: #cc2233;
-  color: white; }
+  background: #c23;
+  color: #fff; }
 
 .unordered-list {
   padding: 0 20px; }
@@ -403,35 +386,35 @@ strong {
   padding: .6rem 0 .6rem 1rem;
   padding: 6px 0 6px 10px;
   position: relative;
-  border-bottom: 2px solid #991111; }
+  border-bottom: 2px solid #911; }
 
 .unordered-list-item:before {
-  color: white;
+  color: #fff;
   content: "-";
   left: 0;
   position: absolute; }
 
 .about-us {
-  background: #111111;
-  color: white;
+  background: #111;
+  color: #fff;
   padding: 10px 0; }
 
 .about-us-inner {
-  border-top: 2px dashed #333333;
-  border-bottom: 2px dashed #333333; }
+  border-top: 2px dashed #333;
+  border-bottom: 2px dashed #333; }
 
 .wara-pic {
   display: block;
   margin: 20px auto 0 auto;
   width: 90%;
-  max-width: 200px; }
+  max-width: 177px; }
 
 .wara-text {
-  color: #888888;
+  color: #888;
   text-align: center; }
 
 .about-us-title {
-  color: #cc2233;
+  color: #c23;
   text-align: center; }
 
 @media only screen and (min-width: 600px) {
@@ -441,62 +424,62 @@ strong {
   display: block; }
 
 .about-us-link {
-  color: #cc2233; }
+  color: #c23; }
 
 .about-us-link:hover {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid #fff; }
 
 .links {
-  background-color: #cc2233; }
+  background-color: #c23; }
 
 .links-title {
-  color: white;
+  color: #fff;
   text-align: center; }
 
 .links-title strong {
   display: block; }
 
 .link-title {
-  color: white;
+  color: #fff;
   text-align: center;
   margin-bottom: .5em; }
 
 .links-p {
-  color: white;
+  color: #fff;
   margin-bottom: .5rem; }
 
 .link-item {
   margin-top: 60px; }
 
 .link {
-  color: white;
+  color: #fff;
   text-align: center;
   display: block; }
 
 .link:hover .link-address {
-  color: white;
-  border-bottom: 1px solid white; }
+  color: #fff;
+  border-bottom: 1px solid #fff; }
 
 .link-address {
-  color: #111111; }
+  color: #111; }
 
 .sponsors {
-  background-color: #111111; }
+  background-color: #111; }
 
 .sponsors-title {
-  color: white;
+  color: #fff;
   text-align: center; }
 
 .sponsors-subtitle {
-  color: #cc2233;
+  color: #c23;
   text-align: center; }
 
 .sponsors-list {
-  color: white; }
+  color: #fff; }
   .sponsors-list .unordered-list-item {
-    border-bottom-color: #888888; }
+    border-bottom-color: #888; }
 
 .sponsor-pic {
   width: 150px;
@@ -507,12 +490,21 @@ strong {
   .sponsor-pic {
     float: right;
     padding-right: 40px; } }
+.orsic a {
+  background: #5AB5F2;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  display: block; }
+  .orsic a:hover {
+    background: #1186d5; }
+
 .kontakt-title {
   text-align: center; }
 
 .form {
   margin: 20px 0;
-  background: #cc2233;
+  background: #c23;
   padding: 60px 10%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -535,12 +527,12 @@ strong {
   font-size: 17px;
   font-size: 1.7rem;
   padding-bottom: 20px;
-  color: white; }
+  color: #fff; }
 
 .input-submit {
-  background: #111111;
+  background: #111;
   padding: 30px;
-  color: white;
+  color: #fff;
   font-size: 28px;
   font-size: 2.8rem;
   border: 0;
@@ -552,6 +544,37 @@ strong {
   -moz-border-radius: 15px;
   border-radius: 15px; }
 
+.aikido-ideal {
+  background: #111;
+  padding: 10px 0; }
+
+.aikido-ideal-inner {
+  border-top: 2px dashed #333;
+  border-bottom: 2px dashed #333; }
+
+.aikido-ideal-quote {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  padding: 0 40px; }
+
+.aikido-ideal-cite {
+  display: block;
+  color: #c23;
+  font-style: normal; }
+
+.quote-pic {
+  margin: 0 auto 30px auto;
+  display: block;
+  border: 8px solid #888;
+  border-radius: 100%;
+  -khtml-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%; }
+
+@media only screen and (min-width: 600px) {
+  .quote-pic {
+    border: 13px solid #888; } }
 @media print {
   * {
     background: #fff;
